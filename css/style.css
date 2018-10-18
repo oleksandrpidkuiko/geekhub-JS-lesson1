@@ -1,0 +1,345 @@
+@charset "UTF-8";
+@media screen and (min-width: 320px) {
+  .slick-prev:before, .slick-next:before {
+    font-family: Quicksand;
+    font-size: 11px;
+    line-height: 30px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #fe992a;
+    color: white;
+    opacity: 0.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .slick-prev:before {
+    content: "‹"; }
+  [dir="rtl"] .slick-prev:before {
+    content: "›"; }
+  [dir="rtl"] .slick-next {
+    left: -10px;
+    top: 70px;
+    right: auto; }
+  .slick-next:before {
+    content: "›"; }
+  [dir="rtl"] .slick-next:before {
+    content: "‹"; }
+  .slick-slide {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: .3s ease-in-out all;
+    transition: .3s ease-in-out all; }
+  .slick-slide.slick-center {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  .slick-next {
+    right: 0; }
+  header {
+    position: relative;
+    background: url("../image/IMG_9857.png");
+    background-position: center center;
+    background-size: cover;
+    height: auto; }
+  .sps--blw {
+    display: block;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4); }
+  .header-navbar {
+    margin: 20px auto; }
+  .header-link, .header-link:visited, .header-link:hover, .header-link:focus {
+    float: right;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+    margin-top: 15px; }
+  .dropdown-toggle:after {
+    vertical-align: middle;
+    margin-left: 15px; }
+  .wanted {
+    display: block; }
+  .goal {
+    margin-top: 120px;
+    text-shadow: 0 1px 1px #000000;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 40px; }
+  .intro {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: 0 1px 1px #000000;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px; }
+  .sliders-info {
+    color: #fe992a;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 28px; }
+  .sliders-info::before {
+    font-size: 48px;
+    content: "“";
+    display: block; }
+  .sliders-info::after {
+    font-size: 48px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    content: "“";
+    margin-right: 0;
+    margin-left: auto;
+    display: block; }
+  .resources-title {
+    margin-bottom: 27px;
+    color: #fe992a;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px; }
+  .resources-content {
+    color: #737c85;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; }
+  .resources {
+    padding-left: 40px;
+    border-left: 1px solid #eaeaea; }
+  .review {
+    margin: 50px auto 50px auto; }
+  footer {
+    padding-top: 50px;
+    padding-bottom: 220px;
+    background-color: #e6726f; }
+  ul.footer-list, ul.vcard {
+    padding-left: 0px; }
+    ul.footer-list li, ul.vcard li {
+      list-style-type: none;
+      margin-bottom: 15px; }
+      ul.footer-list li p, ul.vcard li p {
+        margin-bottom: 0px;
+        color: #ffffff;
+        font-family: "Droid Sans";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px; }
+        ul.footer-list li p a, ul.footer-list li p a:active, ul.footer-list li p a:visited, ul.footer-list li p a:focus, ul.footer-list li p a:hover, ul.vcard li p a, ul.vcard li p a:active, ul.vcard li p a:visited, ul.vcard li p a:focus, ul.vcard li p a:hover {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: "Droid Sans";
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 24px; }
+  .tel, .tel:active, .tel:visited, .tel:focus, .tel:hover {
+    color: #ffffff;
+    font-family: "Droid Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none; }
+  .email, .email:active, .email:visited, .email:focus, .email:hover {
+    color: #ffffff;
+    font-family: "Droid Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none; }
+  .adddress {
+    margin-top: 30px;
+    display: block;
+    font-weight: 700; }
+  .url, .url:active, .url:visited, .url:focus, .url:hover {
+    color: #ffffff;
+    word-break: break-all;
+    font-family: 'Droid Sans', serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px; }
+  .list-title {
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Droid Sans", serif;
+    font-size: 12px; }
+  .safety {
+    margin-top: 15px;
+    display: block; }
+  .vacancies {
+    margin-top: 15px;
+    display: block; }
+  header {
+    position: relative;
+    padding-bottom: 90px; }
+    header::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 90px;
+      left: 0;
+      bottom: 0;
+      background: -webkit-linear-gradient(88deg, white 0%, white 50%, rgba(255, 255, 255, 0.5) 51%, rgba(255, 255, 255, 0.5) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#80ffffff',GradientType=1 );
+      /* IE6-9 fallback on horizontal gradient */ } }
+
+@media screen and (min-width: 1280px) {
+  header {
+    background: url("../image/IMG_9857.png") no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    height: calc(100vh); }
+  .sps--blw {
+    background: rgba(0, 0, 0, 0.4); }
+  .header-navbar {
+    margin: 0 auto 0 221px; }
+  .header-link, .header-link:visited, .header-link:hover, .header-link:focus {
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+    margin-right: 55px;
+    margin-top: 0px; }
+  .dropdown-toggle:after {
+    vertical-align: middle;
+    margin-left: 15px; }
+  .wanted {
+    display: block; }
+  .goal {
+    margin-top: 109px;
+    margin-left: 10px;
+    text-shadow: 0 1px 1px #000000;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 62px; }
+  .intro {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-shadow: 0 1px 1px #000000;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px; }
+  .sliders-info {
+    color: #fe992a;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: italic;
+    line-height: 28px;
+    padding-bottom: 69px; }
+  .resources-title {
+    margin-bottom: 27px;
+    color: #fe992a;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px; }
+  .resources-content {
+    color: #737c85;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; }
+  .resources {
+    padding-left: 59px;
+    border-left: 1px solid #eaeaea;
+    height: 297px; }
+  .review {
+    margin: 100px auto 87px auto; }
+  .slick-prev {
+    position: absolute;
+    top: unset;
+    bottom: 0;
+    left: 250px; }
+  .slick-next {
+    position: absolute;
+    top: unset;
+    bottom: 0;
+    left: 280px; }
+  footer {
+    padding-top: 50px;
+    padding-bottom: 220px;
+    background-color: #e6726f; }
+  ul.footer-list, ul.vcard {
+    padding-left: 0px; }
+    ul.footer-list li, ul.vcard li {
+      list-style-type: none;
+      margin-bottom: 15px; }
+      ul.footer-list li p, ul.vcard li p {
+        margin-bottom: 0px;
+        color: #ffffff;
+        font-family: "Droid Sans";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px; }
+        ul.footer-list li p a, ul.footer-list li p a:active, ul.footer-list li p a:visited, ul.footer-list li p a:focus, ul.footer-list li p a:hover, ul.vcard li p a, ul.vcard li p a:active, ul.vcard li p a:visited, ul.vcard li p a:focus, ul.vcard li p a:hover {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: "Droid Sans";
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 24px; }
+  .tel, .tel:active, .tel:visited, .tel:focus, .tel:hover {
+    color: #ffffff;
+    font-family: "Droid Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none; }
+  .email, .email:active, .email:visited, .email:focus, .email:hover {
+    color: #ffffff;
+    font-family: "Droid Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none; }
+  .adddress {
+    margin-top: 30px;
+    display: block;
+    font-weight: 700; }
+  .url, .url:active, .url:visited, .url:focus, .url:hover {
+    color: #ffffff;
+    font-family: "Droid Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px; }
+  .list-title {
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Droid Sans";
+    font-size: 12px; }
+  .safety {
+    margin-top: 15px;
+    display: block; }
+  .vacancies {
+    margin-top: 15px;
+    display: block; } }
+
+@font-face {
+  font-family: Century Gothic;
+  src: url("../fonts/Century Gothic.TTF"); }
+
+@font-face {
+  font-family: Arabella;
+  src: url("../fonts/Arabella.ttf"); }
+
+font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf"); }
+
+font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Italic.ttf");
+  font-style: italic; }
