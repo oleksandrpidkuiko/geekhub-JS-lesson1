@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var autoprefixer = require('gulp-autoprefixer');
-// подключаем gulp-sass
 var sass = require('gulp-sass');
 gulp.task('browserSync', function() {
     browserSync({
@@ -12,7 +11,7 @@ gulp.task('browserSync', function() {
 });
 gulp.task('sass', function(){
     return gulp.src('sass/**/*.scss')
-        .pipe(sass()) // Конвертируем Sass в CSS с помощью gulp-sass
+        .pipe(sass())
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
@@ -24,6 +23,5 @@ gulp.task('sass', function(){
 });
 gulp.task('watch', ['browserSync', 'sass'], function(){
     gulp.watch('sass/**/*.scss', ['sass']);
-    // другие ресурсы
 });
-
+gulp.task('default', ['watch']);

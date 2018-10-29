@@ -9,9 +9,13 @@
     "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "standard":"standard",
+    "standard::fix":"standard --fix"
   },
   "author": "Alex P.",
   "license": "ISC"
